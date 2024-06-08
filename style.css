@@ -17,6 +17,7 @@ section {
     justify-content: center;
 }
 
+
 h1 {
     font-size: 2.5rem; /*la unidad de medida rem es relativa y se va a ir ajustando */
     font-family:'Lilita One', sans-serif;    
@@ -182,7 +183,7 @@ h1 {
 }
 
 .overlay {
-    transition: all 0.2 ease;
+    transition: all 0.2s ease;
     opacity: 0;
     position:absolute;
     top: 50%;
@@ -422,7 +423,7 @@ footer {
     }
 }
 
-@media screen and (min-vidth: 700px) {
+@media screen and (min-width: 700px) {
     .hero-inferior
     -imagen{
         max-width: 600px;
