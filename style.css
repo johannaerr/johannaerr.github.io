@@ -2,8 +2,10 @@
 
 .navbar {
     padding: 2rem;
-    background-color: #d3e5f7 ; 
+    background-color: #dfdfdf ; 
     font-style :oblique;
+    
+    background-color: #1b1b32;
 }
 .navbar-collapse {
     align-items: center;
